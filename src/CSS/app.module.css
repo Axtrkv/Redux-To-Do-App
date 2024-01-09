@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.input {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    color: #fff;
+    height: 40px;
+    width: 16vw;
+    font-size: 1.5vw;
+    font-family: Italiana;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.addBtn {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    width: 8vw;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background: #2D582C;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25vw;
+    font-family: Italiana;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.addBtn:hover {
+    background: #538053;
+}
+
+.clearBtn {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    width: 8vw;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background: #693A3A;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25vw;
+    font-family: Italiana;
+    color: #FFF;
+    transition: .5s ease-in-out;
+}
+
+.clearBtn:hover {
+    background: #963c3c;
+}
+
+.removeAllBtn {
+    background: #090909;
+    font-size: 1.25vw;
+    height: 40px;
+    width: 18vw;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background: #303030;
+    font-family: Italiana;
+    color: #FFF;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.removeAllBtn:hover {
+    background: #484848;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    gap: 4vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    gap: 4vh;
+}
+
+.add_clear {
+    display: flex;
+    flex-direction: row;
+    width: 18vw;
+    gap: 2vw;
+}
